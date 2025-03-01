@@ -10,15 +10,18 @@ public class Modul1 {
 
         Scanner objInput = new Scanner(System.in); //membuat objek scanner untuk mengambil input dari pengguna
 
+        //mengambil input dari pengguna
         System.out.print("MASUKKAN NAMA ANDA = ");
         name = objInput.nextLine();
         System.out.print("MASUKKAN JENIS KELAMIN ANDA (P/L) = ");
         gender = objInput.next().charAt(0);
-        System.out.print("MASUKKAN TAHUN LAHIR ANDA = ");//revansa adha dwi yuliarto
+        System.out.print("MASUKKAN TAHUN LAHIR ANDA = ");
         tahunlahir = objInput.nextInt();
+
         int tahunsekarang = LocalDate.now().getYear();// mengambil tahun sekarang menggunakan kelas localdate
         int umur = tahunsekarang - tahunlahir; //menghitung umnur pengguna dengan mengurangi tahun lahir dari tahun sekarang
 
+        //menampilkan data diri berdasarkan input dari pengguna
         if( gender == 'L' || gender =='l'){
             System.out.print("\nData diri = \nNama     = " +name + "\nJenis kelamin = Laki-Laki \nUmur   = " + umur);
         } else if (gender == 'P'|| gender == 'p'){
