@@ -1,4 +1,4 @@
-package CODELAB1_MODUL1.main;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
