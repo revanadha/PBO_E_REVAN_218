@@ -19,9 +19,9 @@ public class Modul1 {
         int umur = tahunsekarang - tahunlahir;
 
         if( gender == 'L' || gender =='l'){
-            System.out.print("\nData diri = \nNama     = " +name + "\nJenis kelamin = Laki-Laki \nUmur    : " + umur);
+            System.out.print("\nData diri = \nNama     = " +name + "\nJenis kelamin = Laki-Laki \nUmur   = " + umur);
         } else if (gender == 'P'|| gender == 'p'){
-            System.out.print("\nData diri = \nNama     = " +name + "\nJenis kelamin = Perempuan \nUmur   : "  + umur);
+            System.out.print("\nData diri = \nNama     = " +name + "\nJenis kelamin = Perempuan \nUmur   = "  + umur);
         } else {
             System.out.println("masukkan gender sesuai pilihan (P/L");
         }
