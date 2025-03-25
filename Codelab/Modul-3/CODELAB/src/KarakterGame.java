@@ -1,4 +1,4 @@
-public abstract class KarakterGame {
+private abstract class KarakterGame {
 
 
     //atribut private untuk menyimpan nama dan kesehatan karakter
