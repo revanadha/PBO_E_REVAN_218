@@ -11,4 +11,4 @@ public class Mahasiswa {
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
     }
-}
+}//rerd
