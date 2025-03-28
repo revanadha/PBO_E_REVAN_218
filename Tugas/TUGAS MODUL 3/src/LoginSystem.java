@@ -8,7 +8,7 @@ class LoginSystem {
         scanner.nextLine();
 
         if (pilihan == 1) {
-            System.out.print("Masukkan username: ");
+            System.out.print("Masukkan username: ");//
             String username = scanner.nextLine();
             System.out.print("Masukkan password: ");
             String password = scanner.nextLine();

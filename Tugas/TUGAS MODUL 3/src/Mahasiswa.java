@@ -10,6 +10,6 @@ class Mahasiswa extends User {
 
     @Override
     public void displayInfo() {
-        System.out.println("Login Mahasiswa sukses. ");
+        System.out.println("Login Mahasiswa sukses. Selamat datang, " + getNama());
     }
 }
