@@ -1,9 +1,10 @@
+//menerima input dari pengguna
 import java.util.Scanner;
 
 public class LoginSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        //membuat objek dari kelas admin dan mahasiswa untuk login
         Admin admin = new Admin();
         Mahasiswa mahasiswa = new Mahasiswa();
 
@@ -24,7 +25,7 @@ public class LoginSystem {
             if (admin.login(username, password)) {
                 admin.displayInfo();
             } else {
-                System.out.println("Login Admin gagal! Username atau Password salah.");
+                System.out.println("eror");
             }
 
         } else if (pilihan == 2) {
@@ -37,11 +38,9 @@ public class LoginSystem {
             if (mahasiswa.login(nama, nim)) {
                 mahasiswa.displayInfo();
             } else {
-                System.out.println("Login Mahasiswa gagal! Nama atau NIM salah.");
+                System.out.println("error");
             }
 
-        } else {
-            System.out.println("Pilihan tidak valid!");
         }
 
         scanner.close();
