@@ -8,7 +8,7 @@ public class LoginSystem {
         Admin admin = new Admin();
         Mahasiswa mahasiswa = new Mahasiswa();
 
-        System.out.println("=== Sistem Login ===");
+        System.out.println("~~~ Sistem Login ~~~");
         System.out.println("1. Login sebagai Admin");
         System.out.println("2. Login sebagai Mahasiswa");
         System.out.print("Pilih opsi (1/2): ");
@@ -39,7 +39,7 @@ public class LoginSystem {
                 mahasiswa.displayInfo();
             } else {
                 System.out.println("error");
-            }
+            } 
 
         }
 
