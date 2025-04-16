@@ -1,5 +1,5 @@
 //menerima input dari pengguna
-import java.util.Scanner;
+import java.util.Scanner; //
 
 public class LoginSystem {
     public static void main(String[] args) {
