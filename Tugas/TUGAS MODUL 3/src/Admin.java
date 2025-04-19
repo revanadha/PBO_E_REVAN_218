@@ -1,7 +1,7 @@
 // Subclass Admin yang mewarisi User
 class Admin extends User {
     private String username = "username218";
-    private String password = "password218";
+    private String password = "password218"; // en
 
     // Constructor Admin dengan super untuk inisialisasi User
     public Admin(String nama, String nim, String username, String password) {
@@ -21,4 +21,35 @@ class Admin extends User {
     public void displayInfo() {
         System.out.println("Login Admin sukses. ");
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //kunstuktor = method khusus yang di panggil saat objek dibuat
+    //encapsulation = melindungi data dan menyembunyikan detail implementasi
+    //inheritance = menggunakan kembai kode (extand)
+    // overriding = proses membuat ulang method dan superclass di subclass (void login)
+    // super keyword = memanggil konstuktor / method miilik superclass
 }

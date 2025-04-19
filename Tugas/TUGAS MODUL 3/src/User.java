@@ -21,7 +21,7 @@ class User {
     public String getNim() {
         return nim;
     }
-
+    //s
     public void setNim(String nim) {
         this.nim = nim;
     }
