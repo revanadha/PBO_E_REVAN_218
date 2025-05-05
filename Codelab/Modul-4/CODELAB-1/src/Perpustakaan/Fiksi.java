@@ -13,3 +13,4 @@ public class Fiksi extends Buku {
         System.out.println("Buku Fiksi: " + judul + " oleh " + genre + " (Genre: " + genre + ")");
     }
 }
+//tes
