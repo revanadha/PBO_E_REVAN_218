@@ -44,6 +44,8 @@ class LoginSystem {
             System.out.println("Anda telah keluar dari program");
             System.exit(0);
         }
+        
+
 
         scanner.close();
     }

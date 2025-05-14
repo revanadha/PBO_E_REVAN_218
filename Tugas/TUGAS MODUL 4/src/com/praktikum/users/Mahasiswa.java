@@ -1,5 +1,4 @@
 package com.praktikum.users;
-
 import java.util.Scanner;
 import com.praktikum.actions.MahasiswaActions;
 
@@ -21,11 +20,8 @@ public class Mahasiswa extends User implements MahasiswaActions {
     @Override
     public void info() {
         System.out.println("Login Mahasiswa sukses.");
-        // Abstract method 'info()' tidak boleh dipanggil via super
-        // Jika ingin tampilkan info user, buat method displayInfo di superclass
     }
 
-    // Override method manageUsers dari MahasiswaActions
 
     public void manageUsers() {
         System.out.println(">> Fitur Kelola Pengguna Mahasiswa Belum Tersedia <<");
